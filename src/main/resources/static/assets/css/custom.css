@@ -1,0 +1,375 @@
+.content .customForm .form-group{
+    padding: 0px 0px;
+}
+.content .customForm input, .content .customForm select, .content .customForm textarea {
+    font-size: 	1rem;
+    border-radius: 4px;
+    color: #495057;
+}
+.zeroPadding {
+    padding: 0px !important;
+}
+.alertMessageWrapper {
+    padding: 6px;
+    background-color: #f4f6f9;
+}
+.successfulOrErrorMessages {
+    margin-bottom: 0px;
+}
+.itemAddButton{
+    border-radius: 50% !important;
+    background-color: #4CB6C3;
+    padding: 4px;
+    margin-left: -18px;
+}
+.itemRemoveButton {
+    border-radius: 50% !important;
+    color: #FFFFFF;
+    background-color: #c90000;
+    padding: 4px;
+    margin-right: 23px;
+    margin-left: -18px;
+}
+
+.itemAddButtonRPM{
+    border-radius: 50% !important;
+    background-color: #4CB6C3;
+    padding: 2px;
+    margin-left: -18px;
+}
+.itemRemoveButtonRPM {
+    border-radius: 50% !important;
+    color: #FFFFFF;
+    background-color: #c90000;
+    padding: 2px;
+    margin-right: 23px;
+    margin-left: -18px;
+}
+
+
+.itemAddButtonRPM i, .itemRemoveButtonRPM i{
+    color: #FFFFFF;
+}
+.themeColor {
+    color: #4EC1C8;
+}
+.error{
+    color: #DB0000 !important;
+    font-style: italic;
+    font-weight: 500 !important;
+}
+label.error {
+    margin-top: 3px;
+}
+input.error, select.error, textarea.error{
+    border: 1px solid #DB0000 !important;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #4CB6C3;
+    background-color: #4CB6C3;
+}
+.customForm .custom-control{
+    padding-top: 5px;
+}
+.custom-control-label{
+    cursor: pointer;
+}
+#errorMessageBox{
+    padding: 5px !important;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.nav-tabs > li a.active, .nav-tabs > li a.active:focus, .nav-tabs > li a.active:hover{
+    width:100%;
+    padding:10px 15px;
+    border-bottom: 2px;
+}
+.save-button {
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #4CB6C3;
+    color: #4CB6C3;
+}
+
+.save-button:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4CB6C3;
+}
+.form-check-input{
+    margin-left: 0px;
+}
+#vendorProfileTab, #fabWorkOrderTab{
+    background-color: #ECEDEF;
+}
+#customerProfileTab{
+    background-color: #ECEDEF;
+}
+.nav-tabs .nav-link {
+    color: #56BBC7;
+    font-weight: bold;
+}
+.login-error-success-div{
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+#loginForm .error, #loginForm{
+    font-size: 12px !important;
+}
+.dataTables_filter .form-control:focus{
+    background-image: none;
+}
+.rfi_number_box {
+    width: 4%;
+    text-align: center;
+}
+.reviewerTable{
+    width:100%;
+    margin-top: 10px;
+}
+.reviewerTable tr td{
+    padding: 3px;
+    /*border: 1px solid #DDDDDD;*/
+}
+.cardHeader {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 45px;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    display: none;
+    min-width: 160px;
+    padding: 4px 0;
+    margin: 0 0 10px 25px;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.ui-state-hover, .ui-state-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0088cc;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+.ui-menu-item .ui-menu-item-wrapper{
+    padding-left: 5px;
+}
+#searchReviewer{
+    height: 80%;
+    border-radius: 5px;
+}
+
+.custom-select:disabled {
+    color: #495057;
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.dash-widget-info {
+    text-align: left;
+}
+
+.dashboard-widget-table tbody tr td {
+    padding: 2px;
+    font-size: 12px;
+}
+
+.dashboard-widget-table tbody tr td:nth-child(2) {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.page-header-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.innerTableHeader label {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.table {
+    font-size: 14px;
+    color: #212529;
+}
+
+.page-body {
+    background: #f4f6f9;
+}
+
+.fa-check-circle {
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    color: #212529;
+    font-weight: normal;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li a:hover{
+    color: #ffffff;
+    background-color: #715ae4;
+    border: 1px solid #715ae4;
+}
+
+.col-form-label {
+    font-size: 14px;
+    line-height: 19px;
+    color: #212529;
+}
+
+.fa-eye, .fa-edit, .btn, .text-center {
+    font-size: 14px;
+}
+
+label  {
+    text-align: left!important;
+    font-size: 14px;
+}
+
+div.dataTables_wrapper div.dataTables_length label , div.dataTables_wrapper div.dataTables_length select, div.dataTables_wrapper select div.dataTables_paginate {
+    color:  #212529;
+}
+
+.account-box .account-btn {
+    font-weight: bolder;
+}
+
+li.paginate_button.page-item.previous {
+    color: #717a82;
+}
+
+.dataTables_filter .form-control {
+    border-radius: 4px;
+}
+
+.dataTables_filter label input[type="search"]{
+    border-radius: 4px;
+}
+
+.bootbox-body input, .bootbox-body textarea{
+    border-radius: 4px;
+}
+
+.bootbox-body input:focus, .bootbox-body textarea:focus{
+    border-color: #01c0c8;
+}
+
+td a i:hover{
+    color: #715ae4!important;
+}
+td span.release{
+    color: #3ac569;
+}
+
+td span.closed{
+    color: #3ac569;
+}
+
+td span.not-release{
+    color: #f49025;
+}
+td a i.actionIcon.fa-sync{
+    font-size: 14px;
+}
+
+td span.in-progress{
+    color: #f49025;
+}
+td span.completed{
+    color: #3ac569;
+}
+
+a.createButton:hover{
+    background-color: #715ae4;
+    border: 1px solid #715ae4;
+}
+
+button#submitForReviewButton{
+    background-color: #8b75fd;
+    border: 1px solid #8b75fd;
+}
+button#submitForReviewButton:hover{
+    background-color: #715ae4;
+    border: 1px solid #715ae4;
+}
+div#reviewerWidget table.reviewerTable tbody td i.removeReviewer:hover{
+    color: #715ae4!important;
+}
+button#submitButton:hover{
+    background-color: #715ae4;
+    border: 1px solid #715ae4;
+}
+
+.sidebar-menu li a {
+    font-size: 13px !important;
+    color: #c6c5c7;
+}
+
+.fa-project-diagram:before {
+    font-size: 15px;
+}
+
+.fa-file-alt:before {
+    font-size: 15px;
+}
+
+.fa-users-cog:before {
+    font-size: 15px;
+}
+
+.fa-chart-line:before {
+    font-size: 15px;
+}
+
+#sidebar-menu ul ul a {
+    border-radius: 4px;
+}
+
+.slimscrollBar {
+    border-radius: 4px;
+}
+.inactiveColor {
+    color: rgba(199, 199, 199, 0.88);
+}
